@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="sa-struts-archetype">
+  <requiredProperties>
+    <requiredProperty key="sa-struts-version">
+      <defaultValue>1.0.4-sp5</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="sa-struts-portlet-version">
+      <defaultValue>1.0.0</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="dbflute-version">
+      <defaultValue>0.9.4.1</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="dbflute-plugin-version">
+      <defaultValue>0.1.0</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="h2-version">
+      <defaultValue>1.1.113</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="use-dbflute">
+      <defaultValue>false</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="use-portlet">
+      <defaultValue>false</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.dicon</include>
+        <include>**/*.txt</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="ISO-8859-1">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.jsp</include>
+        <include>**/*.html</include>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.css</include>
+        <include>**/*.js</include>
+        <include>**/*.mayaa</include>
+        <include>**/*.gif</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/test/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/test/resources</directory>
+      <includes>
+        <include>**/*.dicon</include>
+        <include>**/*.txt</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="ISO-8859-1">
+      <directory>src/test/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/production/resources</directory>
+      <includes>
+        <include>**/*.dicon</include>
+        <include>**/*.txt</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="ISO-8859-1">
+      <directory>src/production/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<archetype>
+  <id>sa-struts-archetype</id>
+  <sources>
+    <source>src/main/java/action/IndexAction.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/env.txt</resource>
+    <resource>src/main/resources/application.properties</resource>
+    <resource>src/main/resources/app.dicon</resource>
+    <resource>src/main/resources/s2container.dicon</resource>
+    <resource>src/main/resources/log4j.properties</resource>
+    <resource>src/main/resources/creator.dicon</resource>
+    <resource>src/main/resources/customizer.dicon</resource>
+    <resource>src/main/resources/convention.dicon</resource>
+    <resource>src/main/resources/application_ja.properties</resource>
+    <resource>src/main/resources/jdbc.dicon</resource>
+    <resource>src/main/resources/s2jdbc.dicon</resource>
+    <resource>src/main/resources/env_ut.txt</resource>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    <resource>src/main/webapp/WEB-INF/validator-rules.xml</resource>
+    <resource>src/main/webapp/WEB-INF/struts-config.xml</resource>
+    <resource>src/main/webapp/WEB-INF/view/common/layout.jsp</resource>
+    <resource>src/main/webapp/WEB-INF/view/common/menu.jsp</resource>
+    <resource>src/main/webapp/WEB-INF/view/common/header.jsp</resource>
+    <resource>src/main/webapp/WEB-INF/view/common/footer.jsp</resource>
+    <resource>src/main/webapp/WEB-INF/view/common/common.jsp</resource>
+    <resource>src/main/webapp/WEB-INF/view/index.jsp</resource>
+    <!-- TODO not created by archetype:generate?? -->
+<!--
+    <resource>.tomcatplugin</resource>
+    <resource>.settings/net.sf.amateras.sastruts.prefs</resource>
+    <resource>.amateras</resource>
+-->
+  </resources>
+  <testSources>
+  </testSources>
+  <testResources>
+  </testResources>
+</archetype>
