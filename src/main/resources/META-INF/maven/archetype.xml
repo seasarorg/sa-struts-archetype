@@ -26,12 +26,9 @@
     <resource>src/main/webapp/WEB-INF/view/common/footer.jsp</resource>
     <resource>src/main/webapp/WEB-INF/view/common/common.jsp</resource>
     <resource>src/main/webapp/WEB-INF/view/index.jsp</resource>
-    <!-- TODO not created by archetype:generate?? -->
-<!--
     <resource>.tomcatplugin</resource>
     <resource>.settings/net.sf.amateras.sastruts.prefs</resource>
     <resource>.amateras</resource>
--->
   </resources>
   <testSources>
   </testSources>

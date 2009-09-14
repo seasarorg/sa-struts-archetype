@@ -2,19 +2,19 @@
 <archetype-descriptor name="sa-struts-archetype">
   <requiredProperties>
     <requiredProperty key="sa-struts-version">
-      <defaultValue>1.0.4-sp5</defaultValue>
+      <defaultValue>1.0.4-sp6</defaultValue>
     </requiredProperty>
     <requiredProperty key="sa-struts-portlet-version">
       <defaultValue>1.0.0</defaultValue>
     </requiredProperty>
     <requiredProperty key="dbflute-version">
-      <defaultValue>0.9.4.1</defaultValue>
+      <defaultValue>0.9.5.4</defaultValue>
     </requiredProperty>
     <requiredProperty key="dbflute-plugin-version">
       <defaultValue>0.1.0</defaultValue>
     </requiredProperty>
     <requiredProperty key="h2-version">
-      <defaultValue>1.1.113</defaultValue>
+      <defaultValue>1.1.118</defaultValue>
     </requiredProperty>
     <requiredProperty key="use-dbflute">
       <defaultValue>false</defaultValue>
@@ -24,6 +24,14 @@
     </requiredProperty>
   </requiredProperties>
   <fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>.tomcatplugin</include>
+        <include>.amateras</include>
+        <include>.settings/net.sf.amateras.sastruts.prefs</include>
+      </includes>
+    </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/java</directory>
       <includes>
