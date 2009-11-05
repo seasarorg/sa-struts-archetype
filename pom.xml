@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.seasar.sastruts</groupId>
   <artifactId>sa-struts-archetype</artifactId>
-  <version>1.0.4-sp6.0</version>
+  <version>1.0.4-sp6.1-SNAPSHOT</version>
   <name>Archetype for sa-struts</name>
   <description/>
   <url>http://sastruts.seasar.org/</url>
-  <inceptionYear>2004-2008</inceptionYear>
+  <inceptionYear>2004</inceptionYear>
   <mailingLists>
     <mailingList>
       <name>Seasar-user</name>
