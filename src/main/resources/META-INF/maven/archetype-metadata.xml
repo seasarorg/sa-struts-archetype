@@ -5,13 +5,13 @@
       <defaultValue>1.0.4-sp6</defaultValue>
     </requiredProperty>
     <requiredProperty key="sa-struts-portlet-version">
-      <defaultValue>1.0.0</defaultValue>
+      <defaultValue>1.0.1</defaultValue>
     </requiredProperty>
     <requiredProperty key="dbflute-version">
-      <defaultValue>0.9.5.4</defaultValue>
+      <defaultValue>0.9.6</defaultValue>
     </requiredProperty>
     <requiredProperty key="dbflute-plugin-version">
-      <defaultValue>0.1.0</defaultValue>
+      <defaultValue>0.2.0</defaultValue>
     </requiredProperty>
     <requiredProperty key="h2-version">
       <defaultValue>1.1.118</defaultValue>
