@@ -111,7 +111,7 @@
           <rootPackage>${package}</rootPackage>
           <dbPackage>${package}.db</dbPackage>
           <schemaName>${artifactId}</schemaName>
-          <schemaFile>${dollar}{basedir}/dbflute/schema/project-schema-${artifactId}.xml</schemaFile>
+          <schemaFile>${dollar}{basedir}/dbflute_${artifactId}/schema/project-schema-${artifactId}.xml</schemaFile>
         </configuration>
       </plugin>
 #end##
