@@ -223,6 +223,33 @@
       <version>${h2-version}</version>
     </dependency>
 #end##
+#if ($use-mobylet.matches("(?i)y|yes|true|on"))##
+    <dependency>
+      <groupId>org.seasar.mobylet</groupId>
+      <artifactId>mobylet-charset</artifactId>
+      <version>${mobylet-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seasar.mobylet</groupId>
+      <artifactId>mobylet-core</artifactId>
+      <version>${mobylet-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seasar.mobylet</groupId>
+      <artifactId>mobylet-taglibs</artifactId>
+      <version>${mobylet-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seasar.mobylet</groupId>
+      <artifactId>mobylet-mail</artifactId>
+      <version>${mobylet-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seasar.mobylet</groupId>
+      <artifactId>mobylet-s2extension</artifactId>
+      <version>${mobylet-version}</version>
+    </dependency>
+#end##
 <!-- Geronimo -->
     <dependency>
       <groupId>org.apache.geronimo.specs</groupId>

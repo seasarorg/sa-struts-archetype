@@ -25,6 +25,12 @@
     <param-value>/WEB-INF/view</param-value>
   </context-param>
 
+#if ($use-mobylet.matches("(?i)y|yes|true|on"))##
+  <filter>
+    <filter-name>mobyletfilter</filter-name>
+    <filter-class>org.mobylet.core.http.MobyletFilter</filter-class>
+  </filter>
+#else##
   <filter>
     <filter-name>encodingfilter</filter-name>
     <filter-class>org.seasar.extension.filter.EncodingFilter</filter-class>
@@ -33,6 +39,7 @@
       <param-value>UTF-8</param-value>
     </init-param>
   </filter>
+#end##
 #if ($use-portlet.matches("(?i)y|yes|true|on"))##
   <filter>
     <filter-name>portletRequestFilter</filter-name>
@@ -74,10 +81,20 @@
   </filter>
 #end##
 
+#if ($use-mobylet.matches("(?i)y|yes|true|on"))##
+  <filter-mapping>
+    <filter-name>mobyletfilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+  </filter-mapping>
+#else##
   <filter-mapping>
     <filter-name>encodingfilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+#end##
 #if ($use-portlet.matches("(?i)y|yes|true|on"))##
   <filter-mapping>
     <filter-name>portletRequestFilter</filter-name>

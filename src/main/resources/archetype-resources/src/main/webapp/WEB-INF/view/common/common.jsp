@@ -10,3 +10,6 @@
 <%@taglib prefix="s" uri="http://sastruts.seasar.org" %>
 #end##
 <%@taglib prefix="f" uri="http://sastruts.seasar.org/functions" %>
+#if ($use-mobylet.matches("(?i)y|yes|true|on"))##
+<%@taglib prefix="m" uri="http://taglibs.mobylet.org/" %>
+#end##

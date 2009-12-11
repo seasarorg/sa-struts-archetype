@@ -16,10 +16,16 @@
     <requiredProperty key="h2-version">
       <defaultValue>1.2.124</defaultValue>
     </requiredProperty>
+    <requiredProperty key="mobylet-version">
+      <defaultValue>1.0.2</defaultValue>
+    </requiredProperty>
     <requiredProperty key="use-dbflute">
       <defaultValue>false</defaultValue>
     </requiredProperty>
     <requiredProperty key="use-portlet">
+      <defaultValue>false</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="use-mobylet">
       <defaultValue>false</defaultValue>
     </requiredProperty>
   </requiredProperties>

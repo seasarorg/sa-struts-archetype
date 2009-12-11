@@ -10,6 +10,9 @@
 	<include path="j2ee.dicon"/>
 	<include path="s2jdbc.dicon"/>
 #end##
+#if ($use-mobylet.matches("(?i)y|yes|true|on"))##
+    <include path="mobylet.dicon"/>
+#end##
 	
 	<component name="actionMessagesThrowsInterceptor" class="org.seasar.struts.interceptor.ActionMessagesThrowsInterceptor"/>
 </components>
