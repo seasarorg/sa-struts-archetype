@@ -28,7 +28,7 @@
 #if ($use-mobylet.matches("(?i)y|yes|true|on"))##
   <filter>
     <filter-name>mobyletfilter</filter-name>
-    <filter-class>org.mobylet.core.http.MobyletFilter</filter-class>
+    <filter-class>org.seasar.mobylet.http.S2MobyletFilter</filter-class>
   </filter>
 #else##
   <filter>
