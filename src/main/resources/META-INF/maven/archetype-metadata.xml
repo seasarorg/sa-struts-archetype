@@ -2,22 +2,22 @@
 <archetype-descriptor name="sa-struts-archetype">
   <requiredProperties>
     <requiredProperty key="sa-struts-version">
-      <defaultValue>1.0.4-sp7</defaultValue>
+      <defaultValue>1.0.4-sp9</defaultValue>
     </requiredProperty>
     <requiredProperty key="sa-struts-portlet-version">
       <defaultValue>1.0.2</defaultValue>
     </requiredProperty>
     <requiredProperty key="dbflute-version">
-      <defaultValue>0.9.6.1</defaultValue>
+      <defaultValue>0.9.9.0C</defaultValue>
     </requiredProperty>
     <requiredProperty key="dbflute-plugin-version">
-      <defaultValue>0.3.0</defaultValue>
+      <defaultValue>0.4.0</defaultValue>
     </requiredProperty>
     <requiredProperty key="h2-version">
-      <defaultValue>1.2.124</defaultValue>
+      <defaultValue>1.3.159</defaultValue>
     </requiredProperty>
     <requiredProperty key="mobylet-version">
-      <defaultValue>1.0.2</defaultValue>
+      <defaultValue>1.0.7</defaultValue>
     </requiredProperty>
     <requiredProperty key="use-dbflute">
       <defaultValue>false</defaultValue>

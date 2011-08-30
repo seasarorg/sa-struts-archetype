@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.seasar.sastruts</groupId>
   <artifactId>sa-struts-archetype</artifactId>
-  <version>1.0.4-sp7.1</version>
+  <version>1.0.4-sp9.0</version>
   <name>Archetype for sa-struts</name>
   <description/>
   <url>http://sastruts.seasar.org/</url>
