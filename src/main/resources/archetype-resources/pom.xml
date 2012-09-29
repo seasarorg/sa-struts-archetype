@@ -104,13 +104,13 @@
 #if ($use-dbflute.matches("(?i)y|yes|true|on"))##
       <plugin>
         <groupId>org.seasar.dbflute</groupId>
-        <artifactId>maven-dbflute-plugin</artifactId>
+        <artifactId>dbflute-maven-plugin</artifactId>
         <version>${dbflute-plugin-version}</version>
         <configuration>
           <dbfluteVersion>${dbflute-version}</dbfluteVersion>
           <rootPackage>${package}</rootPackage>
           <dbPackage>${package}.db</dbPackage>
-          <schemaName>${artifactId}</schemaName>
+          <clientProject>${artifactId}</clientProject>
           <schemaFile>${dollar}{basedir}/dbflute_${artifactId}/schema/project-schema-${artifactId}.xml</schemaFile>
         </configuration>
       </plugin>
